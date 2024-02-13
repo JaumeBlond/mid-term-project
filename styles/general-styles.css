@@ -9,6 +9,9 @@
   --clearerBlue: #ecf7ff;
   --yellow: #ffc600;
   font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  align-content: center;
 }
 
 h1 {
