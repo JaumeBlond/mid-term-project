@@ -1,0 +1,62 @@
+* {
+  --darkBlue: #072acb;
+  --pastelBlue: #43d2ff;
+  --indigo: #a2d6f9;
+  --softBlue: #d1edff;
+  --darkGrey: #292e47;
+  --pastelGrey: #6b708d;
+  --lightGrey: #f2f4fc;
+  --clearerBlue: #ecf7ff;
+  --yellow: #ffc600;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.bodyMedium {
+    font-size: 24px;
+    font-weight: medium ;
+}
+
+.bodyRegular { 
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.headlineMedium {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.headlineRegular {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.captionOne {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.captionTwo {
+    font-size: 13px;
+    font-weight: normal;
+}
