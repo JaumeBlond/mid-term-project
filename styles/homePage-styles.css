@@ -1,2 +1,43 @@
-@import url('general-styles.css');
+@import url("general-styles.css");
+
+.navBar {
+    width: 1440px;
+    height: 122px;
+}
+
+.hero {
+    width: 1440px;
+    height: 650px; 
+}
+
+.clients {
+    width: 1440px;
+    height: 92px; 
+}
+
+.projects {
+    width: 1440px;
+    height: 561px; 
+}
+
+.testimonials {
+    width: 1320px;
+    height: 622px; 
+}
+
+.services {
+    width: 1440px;
+    height: 561px; 
+}
+
+.CTA-email {
+    width: 1320px;
+    height: 500px; 
+}
+
+.footer {
+    width: 1440px;
+    height: 242px; 
+}
+
 
