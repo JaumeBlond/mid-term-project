@@ -1,2 +1,86 @@
-@import url('general-styles.css');
+@import url("general-styles.css");
 
+.navBar {
+  position: relative;
+  width: 1440px;
+  height: 122px;
+  padding-top: 80px;
+  padding-left: 210px;
+}
+
+.navBar .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 1020px;
+  height: 52px;
+}
+
+.button {
+  background-color: var(--darkBlue);
+  border: none;
+  color: white;
+  text-decoration: none;
+  width: 150px;
+  height: inherit;
+  display: inline-flex;
+  justify-content: center; /* center the content horizontally */
+  align-items: center;
+}
+
+.button a {
+  color: white;
+  text-decoration: none;
+  line-height: inherit;
+}
+
+.navBar .container ul li {
+  display: inline;
+  padding-left: 20px;
+}
+
+.navBar .container ul li a {
+  text-decoration: none;
+  color: var(--pastelGrey);
+}
+
+.logo {
+  width: max-content;
+  height: max-content;
+}
+
+.hero {
+  width: 1440px;
+  height: 650px;
+}
+
+.clients {
+  width: 1440px;
+  height: 92px;
+}
+
+.projects {
+  width: 1440px;
+  height: 561px;
+}
+
+.testimonials {
+  width: 1320px;
+  height: 622px;
+}
+
+.services {
+  width: 1440px;
+  height: 561px;
+}
+
+.CTA-email {
+  width: 1320px;
+  height: 500px;
+}
+
+.footer {
+  width: 1440px;
+  height: 242px;
+}
