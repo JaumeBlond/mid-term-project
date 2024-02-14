@@ -5,7 +5,9 @@
   width: 1440px;
   height: 122px;
   padding-top: 80px;
-  padding-left: 210px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .navBar .container {
@@ -17,17 +19,75 @@
   height: 52px;
 }
 
+.hero .container {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 1020px;
+}
+
+.cardImg1 {
+  width: 190px;
+  height: 216px;
+  position: absolute;
+  left: 0px;
+  top: 25px;
+}
+
+.bodyRegular {
+  color: var(--pastelGrey);
+}
+
+.cardImg2 {
+  width: 190px;
+  height: 193px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.backImage {
+  position: relative;
+  background-image: url("../resources/hero-section/hero-image.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 550px;
+  height: 650px;
+}
+
+.linkGrey a{
+    padding-left: 40px;
+    text-decoration: none;
+    color: var(--pastelGrey);
+}
+
 .button {
   background-color: var(--darkBlue);
   border: none;
   color: white;
   text-decoration: none;
   width: 150px;
-  height: inherit;
+  height: 52px;
   display: inline-flex;
   justify-content: center; /* center the content horizontally */
   align-items: center;
 }
+
+.textField {
+  width: 550px;
+  height: 422px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+
+.heroLinks{
+    height: 52px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
 
 .button a {
   color: white;
@@ -51,8 +111,12 @@
 }
 
 .hero {
-  width: 1440px;
   height: 650px;
+  width: 1440px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
 
 .clients {
@@ -83,4 +147,8 @@
 .footer {
   width: 1440px;
   height: 242px;
+}
+
+h1 {
+  color: var(--darkGrey);
 }
