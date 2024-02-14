@@ -27,17 +27,32 @@
   width: 1020px;
 }
 
-.clients .container {
-    justify-content: space-between;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 1020px;
-  }
+.projects .wraper {
+  display: flex;
+  flex-direction: column;
+  width: 1100px;
+}
 
-  .clients .container img {
-    filter: grayscale(1);
-  }
+.projects .container {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 1100px;
+  margin-top: 70px;
+}
+
+.clients .container {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 1020px;
+}
+
+.clients .container img {
+  filter: grayscale(1);
+}
 
 .cardImg1 {
   width: 190px;
@@ -68,10 +83,10 @@
   height: 650px;
 }
 
-.linkGrey a{
-    padding-left: 40px;
-    text-decoration: none;
-    color: var(--pastelGrey);
+.linkGrey a {
+  padding-left: 40px;
+  text-decoration: none;
+  color: var(--pastelGrey);
 }
 
 .button {
@@ -94,12 +109,12 @@
   flex-direction: column;
 }
 
-.heroLinks{
-    height: 52px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
+.heroLinks {
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 
 .button a {
   color: white;
@@ -130,7 +145,8 @@
   justify-content: center;
   margin-top: 100px;
   margin-left: auto;
-  margin-right: auto;}
+  margin-right: auto;
+}
 
 .clients {
   width: 1440px;
@@ -146,26 +162,56 @@
 .projects {
   width: 1440px;
   height: 561px;
+  position: relative;
+  justify-content: center;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
 }
 
 .testimonials {
   width: 1320px;
   height: 622px;
+  position: relative;
+  justify-content: center;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
 }
 
 .services {
   width: 1440px;
   height: 561px;
+  position: relative;
+  justify-content: center;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
 }
 
 .CTA-email {
   width: 1320px;
   height: 500px;
+  justify-content: center;
+  margin-top: 136px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  display: flex;
 }
 
 .footer {
   width: 1440px;
   height: 242px;
+  justify-content: center;
+  margin-top: 170px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  display: flex;
 }
 
 h1 {
