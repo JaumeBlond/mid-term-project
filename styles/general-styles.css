@@ -15,8 +15,7 @@
 }
 
 body {
-    background-color: var(--lightGrey);
-
+  background-color: var(--lightGrey);
 }
 
 h1 {
@@ -40,31 +39,54 @@ h4 {
 }
 
 .bodyMedium {
-    font-size: 24px;
-    font-weight: medium ;
+  font-size: 24px;
+  font-weight: medium;
 }
 
-.bodyRegular { 
-    font-size: 20px;
-    font-weight: normal;
+.bodyRegular {
+  font-size: 20px;
+  font-weight: normal;
 }
 
 .headlineMedium {
-    font-size: 17px;
-    font-weight: bold;
+  font-size: 17px;
+  font-weight: bold;
 }
 
 .headlineRegular {
-    font-size: 17px;
-    font-weight: normal;
+  font-size: 17px;
+  font-weight: normal;
 }
 
 .captionOne {
-    font-size: 15px;
-    font-weight: normal;
+  font-size: 15px;
+  font-weight: normal;
 }
 
 .captionTwo {
-    font-size: 13px;
-    font-weight: normal;
+  font-size: 13px;
+  font-weight: normal;
 }
+
+.button {
+  background-color: var(--darkBlue);
+  border: none;
+  color: white;
+  text-decoration: none;
+  width: 150px;
+  height: 52px;
+  display: inline-flex;
+  justify-content: center; /* center the content horizontally */
+  align-items: center;
+}
+
+.button a {
+  color: white;
+  text-decoration: none;
+  line-height: inherit;
+}
+
+.logo {
+    width: max-content;
+    height: max-content;
+  }

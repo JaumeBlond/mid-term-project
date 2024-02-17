@@ -1,0 +1,68 @@
+@import url("general-styles.css");
+
+.footer .wraper {
+  width: 1100px;
+  height: 112px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer .footerLinks {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  width: 435px;
+}
+
+.footer .footerLinks .container {
+  justify-content: space-between;
+  align-content: start;
+  display: flex;
+  flex-direction: column;
+}
+
+.footerHref {
+  margin-right: 106px;
+}
+
+.footer ul li a {
+  text-align: start;
+}
+
+.footer .container ul li {
+  display: inline;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: var(--pastelGrey);
+}
+
+.footer {
+  width: 1440px;
+  height: 242px;
+  justify-content: center;
+  margin-top: 170px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  display: flex;
+}
+
+.companyInfo {
+  width: 260px;
+  height: 112px;
+}
+
+.companyInfo img {
+  width: 98px;
+  height: 30px;
+}
+
+.companyInfo .textContent {
+  color: var(--pastelGrey);
+  margin-top: 30px;
+  width: inherit;
+  height: 52px;
+}
