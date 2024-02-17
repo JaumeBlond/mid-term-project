@@ -11,11 +11,77 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-
     <link rel="stylesheet" href="../styles/project-styles.css" />
   </head>
   <body>
-    <main></main>
+    <header class="navBar">
+      <nav class="container">
+        <img
+          src="../resources/logos/circle.svg"
+          alt="circle logo blue"
+          class="logo"
+        />
+        <ul class="headlineMedium">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Services</a></li>
+        </ul>
+        <div class="button headlineMedium"><a href="#">Contact Us</a></div>
+      </nav>
+    </header>
+    <main>      
+      <section class="CTA-email">
+      <div class="wraper">
+        <div class="container">
+          <div class="textContent">
+            <h3>Do you have any questions?</h3>
+            <p class="bodyRegular">Let us help you!</p>
+          </div>
+
+          <div class="emailForm formContainer">
+            <div class="clientEmail">
+              <img src="../resources/newsletter/icon/mail.svg" alt="" />
+              <input
+                type="email"
+                name="clientEmail"
+                id="inputEmail"
+                placeholder="Enter your email"
+                class="headlineRegular"
+              />
+            </div>
+            <div class="button">Subscribe</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="wraper">
+      <div class="companyInfo">
+        <img src="../resources/logos/circle.svg" alt="" />
+        <div class="textContent headlineRegular">
+          2972 Westheimer Rd. Santa Ana, Illinois 85486
+        </div>
+      </div>
+      <div class="footerLinks container">
+        <ul class="headlineMedium container footerHref">
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Press</a></li>
+        </ul>
+        <ul class="headlineMedium container footerHref">
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects</a></li>
+        </ul>
+        <ul class="headlineMedium container last_href">
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
     <script src="index.js"></script>
   </body>
 </html>
