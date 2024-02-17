@@ -42,6 +42,53 @@
   margin-top: 70px;
 }
 
+.CTA-email .wraper {
+  width: 1320px;
+  height: 500px;
+  background-color: var(--yellow);
+  align-items: center;
+}
+
+.CTA-email .wraper .container {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 136px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1100px;
+  height: 227px;
+}
+
+.CTA-email .container {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: fit-content;
+}
+
+.CTA-email .formContainer {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: fit-content;
+}
+
+.testimonials .wraper {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 1320px;
+  background-color: var(--darkGrey);
+  background-image: url(../resources/testimonial-section/orbit.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .services .container {
   justify-content: space-between;
   display: flex;
@@ -49,6 +96,119 @@
   align-items: center;
   width: 1100px;
   margin-top: 70px;
+}
+
+.testimonials .textContent p {
+  color: var(--yellow);
+}
+
+.testimonials .textContent h3 {
+  color: white;
+}
+
+.testimonials .textContent {
+  text-align: center;
+  width: 1100px;
+  height: 382px;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.testimonials .textContent .container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 621px;
+  height: 382px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.testimonials .wraper .textContent .userData {
+  width: 171px;
+  height: 50px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.userData div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-content: start;
+  padding-left: 10px;
+  justify-content: space-between;
+  padding-bottom: 5px;
+}
+
+.userData div p {
+  text-align: start;
+  padding-top: 5px;
+}
+
+.testimonials .textContent .headlineRegular {
+  color: var(--indigo);
+}
+
+.testimonials .textContent .reviewSource {
+  color: var(--lightGrey);
+}
+
+.userData img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.animojis img {
+  width: 150px;
+  height: 150px;
+}
+
+.animojis {
+  height: 498px;
+}
+
+.animojis .container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: inherit;
+  padding-left: 65px;
+  padding-right: 65px;
+}
+
+.footer .wraper {
+  width: 1100px;
+  height: 112px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer .footerLinks {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  width: 435px;
+}
+
+.footer .footerLinks .container {
+  justify-content: space-between;
+  align-content: start;
+  display: flex;
+  flex-direction: column;
+}
+
+.footerHref {
+  margin-right: 106px;
 }
 
 .clients .container {
@@ -64,11 +224,45 @@
 }
 
 .cardImg1 {
-  width: 190px;
-  height: 216px;
+  width: 332px;
+  height: 371px;
   position: absolute;
-  left: 0px;
-  top: 25px;
+  left: -70px;
+  top: 0px;
+}
+
+.clientEmail {
+  height: 80px;
+  width: 393px;
+  background-color: white;
+  align-items: center;
+  position: sticky;
+}
+
+.clientEmail img {
+  height: 30px;
+  width: 30px;
+  padding-left: 30px;
+  padding-top: 25px;
+}
+
+#inputEmail {
+  height: 80px;
+  position: absolute;
+  padding-left: 10px;
+  display: inline-block;
+  border-style: none;
+}
+
+.emailForm {
+  flex-direction: row;
+  width: inherit;
+}
+
+.CTA-email .button {
+  height: 80px;
+  margin-left: 20px;
+  width: 198px;
 }
 
 .bodyRegular {
@@ -76,18 +270,23 @@
 }
 
 .cardImg2 {
-  width: 190px;
-  height: 193px;
+  width: 332px;
+  height: 338px;
   position: absolute;
-  right: 0px;
-  bottom: 0px;
+  right: -90px;
+  bottom: -80px;
 }
 
 .cards {
   width: 340px;
   height: 444px;
   background-color: white;
-  border-style: ridge;
+  box-shadow: 0 6px 20px 0 var(--lightGrey), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.services div div .cards {
+  width: 340px;
+  height: 380px;
 }
 
 .projectImg {
@@ -106,6 +305,39 @@
   width: inherit;
 }
 
+.services .cards .container {
+  padding: 0;
+  padding-left: 30px;
+  margin: 0;
+  position: sticky;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: inherit;
+  height: inherit;
+  align-items: start;
+}
+
+.imgBck {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  background-color: var(--clearerBlue);
+  border-radius: 50%;
+  align-items: center;
+}
+
+.imgBck img {
+  padding: 20px;
+}
+
+.CTA-email .textContent {
+  text-align: center;
+}
+
+.CTA-email .textContent p {
+  margin-top: 20px;
+}
 .backImage {
   position: relative;
   background-image: url("../resources/hero-section/hero-image.png");
@@ -119,7 +351,17 @@
   position: relative;
   display: flex;
   justify-content: space-between;
+  margin-top: 30px;
+  margin-left: 30px;
   flex-direction: column;
+}
+
+.textInfo a {
+  margin-top: 54px;
+}
+
+.textInfo p {
+  margin-top: 10px;
 }
 
 .linkGrey a {
@@ -166,7 +408,33 @@
   padding-left: 20px;
 }
 
-.navBar .container ul li a {
+.footer ul li a {
+  text-align: start;
+}
+
+.footer .container ul li {
+  display: inline;
+}
+
+.companyInfo {
+  width: 260px;
+  height: 112px;
+}
+
+.companyInfo img {
+  width: 98px;
+  height: 30px;
+}
+
+.companyInfo .textContent {
+  color: var(--pastelGrey);
+  margin-top: 30px;
+  width: inherit;
+  height: 52px;
+}
+
+.navBar .container ul li a,
+.footer ul li a {
   text-decoration: none;
   color: var(--pastelGrey);
 }
@@ -210,15 +478,14 @@
 }
 
 .testimonials {
-  width: 1320px;
+  width: 1440px;
   height: 622px;
-  position: relative;
+  position: static;
   justify-content: center;
   margin-top: 200px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  background-color: var(--darkGrey);
 }
 
 .services {
@@ -233,7 +500,7 @@
 }
 
 .CTA-email {
-  width: 1320px;
+  width: 1440px;
   height: 500px;
   justify-content: center;
   margin-top: 136px;
@@ -241,7 +508,6 @@
   margin-right: auto;
   position: relative;
   display: flex;
-  background-color: var(--yellow);
 }
 
 .footer {
