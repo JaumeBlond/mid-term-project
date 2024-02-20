@@ -2,13 +2,15 @@
 @import url("navBar-styles.css");
 @import url("CTA-email-styles.css");
 @import url("footer-styles.css");
+@import url("cards-style.css");
+
 
 .hero .container {
   justify-content: space-between;
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 1020px;
+  width: 1100px;
 }
 
 .projects .wraper {
@@ -139,7 +141,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 1020px;
+    width: 1100px;
   }
 
 .projects .container {
@@ -265,11 +267,15 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 1020px;
+  width: 1100px;
 }
 
 .clients .container img {
   filter: grayscale(1);
+}
+
+.bodyRegular {
+  color: var(--pastelGrey);
 }
 
 .cardImg1 {
@@ -280,124 +286,12 @@
   top: 0px;
 }
 
-.bodyRegular {
-  color: var(--pastelGrey);
-}
-
 .cardImg2 {
   width: 332px;
   height: 338px;
   position: absolute;
   right: -90px;
   bottom: -80px;
-}
-
-.cards {
-  width: 340px;
-  height: 444px;
-  background-color: white;
-  box-shadow: 0 6px 20px 0 var(--lightGrey), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-}
-
-.services div div .cards {
-  width: 340px;
-  height: 380px;
-}
-
-.projectImg {
-  width: inherit;
-  height: 240px;
-  object-fit: cover;
-}
-
-.cards .container {
-  padding: 0;
-  margin: 0;
-  position: sticky;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  width: inherit;
-}
-
-.services .cards .container {
-  padding: 0;
-  padding-left: 30px;
-  margin: 0;
-  position: sticky;
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
-  width: inherit;
-  height: inherit;
-  align-items: start;
-}
-
-.imgBck {
-  position: relative;
-  width: 80px;
-  height: 80px;
-  background-color: var(--clearerBlue);
-  border-radius: 50%;
-  align-items: center;
-}
-
-.imgBck img {
-  padding: 20px;
-}
-
-.cards {
-  width: 340px;
-  height: 444px;
-  background-color: white;
-  box-shadow: 0 6px 20px 0 var(--lightGrey), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-}
-
-.services div div .cards {
-  width: 340px;
-  height: 380px;
-}
-
-.projectImg {
-  width: inherit;
-  height: 240px;
-  object-fit: cover;
-}
-
-.cards .container {
-  padding: 0;
-  margin: 0;
-  position: sticky;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  width: inherit;
-}
-
-.services .cards .container {
-  padding: 0;
-  padding-left: 30px;
-  margin: 0;
-  position: sticky;
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
-  width: inherit;
-  height: inherit;
-  align-items: start;
-}
-
-.imgBck {
-  position: relative;
-  width: 80px;
-  height: 80px;
-  background-color: var(--clearerBlue);
-  border-radius: 50%;
-  align-items: center;
-}
-
-.imgBck img {
-  padding: 20px;
 }
 
 .backImage {
