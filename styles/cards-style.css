@@ -1,109 +1,126 @@
 @import url("general-styles.css");
 
 .cards {
-    width: 340px;
-    height: 444px;
-    background-color: white;
-    box-shadow: 0 6px 20px 0 var(--lightGrey), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-  }
-  
-  .services div div .cards {
-    width: 340px;
-    height: 380px;
-  }
-  
-  .projectImg {
-    width: inherit;
-    height: 240px;
-    object-fit: cover;
-  }
-  
-  .cards .container {
-    padding: 0;
-    margin: 0;
-    position: sticky;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    width: inherit;
-  }
-  
-  .services .cards .container {
-    padding: 0;
-    padding-left: 30px;
-    margin: 0;
-    position: sticky;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    width: inherit;
-    height: inherit;
-    align-items: start;
-  }
-  
-  .imgBck {
-    position: relative;
-    width: 80px;
-    height: 80px;
-    background-color: var(--clearerBlue);
-    border-radius: 50%;
-    align-items: center;
-  }
-  
-  .imgBck img {
-    padding: 20px;
-  }
-  
-  .cards {
-    width: 340px;
-    height: 444px;
-    background-color: white;
-    box-shadow: 0 6px 20px 0 var(--lightGrey), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-  }
-  
-  .services div div .cards {
-    width: 340px;
-    height: 380px;
-  }
-  
-  .projectImg {
-    width: inherit;
-    height: 240px;
-    object-fit: cover;
-  }
-  
-  .cards .container {
-    padding: 0;
-    margin: 0;
-    position: sticky;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    width: inherit;
-  }
-  
-  .services .cards .container {
-    padding: 0;
-    padding-left: 30px;
-    margin: 0;
-    position: sticky;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    width: inherit;
-    height: inherit;
-    align-items: start;
-  }
-  
-  .imgBck {
-    position: relative;
-    width: 80px;
-    height: 80px;
-    background-color: var(--clearerBlue);
-    border-radius: 50%;
-    align-items: center;
-  }
-  
-  .imgBck img {
-    padding: 20px;
-  }
+  width: 340px;
+  height: 444px;
+  background-color: white;
+  box-shadow: 0 6px 20px 0 var(--lightGrey), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.services div div .cards {
+  width: 340px;
+  height: 380px;
+}
+
+.projectImg {
+  width: inherit;
+  height: 240px;
+  object-fit: cover;
+}
+
+.textInfo {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-left: 30px;
+  flex-direction: column;
+}
+
+.textInfo a {
+  margin-top: 54px;
+}
+
+.textInfo p {
+  margin-top: 10px;
+}
+
+.cards .container {
+  padding: 0;
+  margin: 0;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: inherit;
+}
+
+.services .cards .container {
+  padding: 0;
+  padding-left: 30px;
+  margin: 0;
+  position: sticky;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: inherit;
+  height: inherit;
+  align-items: start;
+}
+
+.imgBck {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  background-color: var(--clearerBlue);
+  border-radius: 50%;
+  align-items: center;
+}
+
+.imgBck img {
+  padding: 20px;
+}
+
+.cards {
+  width: 340px;
+  height: 444px;
+  background-color: white;
+  box-shadow: 0 6px 20px 0 var(--lightGrey), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.services div div .cards {
+  width: 340px;
+  height: 380px;
+}
+
+.projectImg {
+  width: inherit;
+  height: 240px;
+  object-fit: cover;
+}
+
+.cards .container {
+  padding: 0;
+  margin: 0;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: inherit;
+}
+
+.services .cards .container {
+  padding: 0;
+  padding-left: 30px;
+  margin: 0;
+  position: sticky;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: inherit;
+  height: inherit;
+  align-items: start;
+}
+
+.imgBck {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  background-color: var(--clearerBlue);
+  border-radius: 50%;
+  align-items: center;
+}
+
+.imgBck img {
+  padding: 20px;
+}
