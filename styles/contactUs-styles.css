@@ -1,3 +1,78 @@
 @import url("general-styles.css");
 @import url("navBar-styles.css");
 @import url("footer-styles.css");
+
+.contactForm {
+  width: 1100px;
+  height: 660px;
+  position: relative;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.contactForm .container {
+  margin-top: 80px;
+  color: var(--pastelGrey);
+}
+
+.contactForm .nameContainer input {
+  width: 1100px;
+  height: 66px;
+}
+
+label,
+input {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  height: 66px;
+  color: var(--pastelGrey);
+  text-indent: 20px;
+  margin-top: 10px;
+  border: 0px;
+  background-color: rgba(107, 112, 141, 10%);
+}
+
+.contactWays {
+  margin-top: 40px;
+  width: 1100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contactWays input {
+  width: 530px;
+  display: flex;
+  flex-direction: column;
+}
+
+#messageText {
+  background-color: rgba(107, 112, 141, 10%);
+  margin-top: 10px;
+  border: 0px;
+  width: 1100px;
+  text-indent: 20px;
+  line-height: 20px;
+  height: 200px;
+}
+
+.messageBody {
+  margin-top: 40px;
+  color: var(--pastelGrey);
+}
+
+textarea::placeholder {
+  padding-top: 20px;
+}
+
+.contactForm .button {
+  margin-top: 40px;
+  width: 1100px;
+  color: white;
+}
