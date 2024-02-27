@@ -90,3 +90,9 @@ h4 {
     width: max-content;
     height: max-content;
   }
+
+@media (max-width: 768px) {
+  body {
+    width: var(--width-tablet); /* Adjust width for tablets */
+  }
+}
