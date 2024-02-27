@@ -6,17 +6,26 @@
 
 .projectInformation {
   position: relative;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
   display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.projectInformation .wraper {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: inherit;
 }
 
 .projectInformation .container {
   justify-content: space-between;
-  display: flex;
   flex-direction: column;
-  align-items: left;
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .projectInformation .subtitle {
@@ -30,16 +39,34 @@
   flex-direction: row;
 }
 
-.projectInformation .projectData {
-  width: inherit;
-  height: 934px;
-  margin-top: 80px;
+.projectData {
+  height: fit-content;
+}
+
+.projectData div {
+  margin-top: 70px;
 }
 
 .imageCard {
   width: inherit;
   height: 444px;
-  background-color: aqua;
+}
+
+#cardImage {
+  width: 1100px;
+  height: 444px;
+  z-index: 1;
+  position: absolute;
+  object-fit: cover;
+}
+
+#cardImageBlurr {
+  width: 1100px;
+  height: 444px;
+  z-index: -1;
+  object-fit: cover;
+  position: relative;
+  filter: blur(8px);
 }
 
 .projectCards .container {
