@@ -1,3 +1,12 @@
+:root {
+  /* Define base width for desktop */
+  --width-desktop: 1440px;
+  /* Calculate tablet width based on desktop */
+  --width-tablet: calc(var(--width-desktop) * 0.9);
+  /* Calculate mobile width based on tablet */
+  --width-mobile: calc(var(--width-tablet) * 0.5);
+}
+
 * {
   --darkBlue: #072acb;
   --pastelBlue: #43d2ff;
@@ -15,6 +24,7 @@
 }
 
 body {
+  height: fit-content;
   background-color: var(--lightGrey);
 }
 
@@ -87,6 +97,6 @@ h4 {
 }
 
 .logo {
-    width: max-content;
-    height: max-content;
-  }
+  width: max-content;
+  height: max-content;
+}
