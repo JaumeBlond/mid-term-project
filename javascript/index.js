@@ -1,5 +1,3 @@
-const projectButton = document.querySelectorAll(".gotoProject");
-
 function loadImage(id, url) {
   let cardID = `projectCard${id}_img`;
   let cardImage = document.getElementById(cardID);
@@ -22,7 +20,6 @@ function setProjectLink(id, uuid) {
   const linkHref = document.querySelector(`#projectCard${id} > .textInfo > a`);
   linkHref.id = `button${uuid}`;
   linkHref.href = `projects/1.html?uuid=${uuid}`;
-  linkHref.className = `gotoProject`;
 }
 
 function loadContent() {
@@ -44,7 +41,6 @@ document.addEventListener(
   "DOMContentLoaded",
   function () {
     loadContent();
-    const projectButton = document.getElementsByClassName("gotoProject");
   },
   false
 );
