@@ -33,8 +33,9 @@
 
 body {
   width: var(--width-desktop); /* Adjust width for tablets */
-  @media (min-width: 1440px) {
-    width: var(--width-big-desktop); /* Adjust width for tablets */
+
+  @media (max-width: 1440px) {
+    width: var(--width-desktop); /* Adjust width for tablets */
   }
 
   @media (max-width: 1020) {

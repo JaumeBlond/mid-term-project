@@ -16,23 +16,7 @@
   </head>
 
   <body class="responsive">
-    <header class="navBar">
-      <nav class="container">
-        <img
-          src="./resources/logos/circle.svg"
-          alt="circle logo blue"
-          class="logo"
-        />
-        <ul class="headlineMedium">
-          <li><a href="#Home">Home</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#services">Services</a></li>
-        </ul>
-        <div class="button headlineMedium">
-          <a href="/contact.html" class="headlineRegular">Contact Us</a>
-        </div>
-      </nav>
-    </header>
+    <header class="navBar" id="navigationBar"></header>
     <main>
       <section class="hero">
         <div class="container">
@@ -82,37 +66,6 @@
         </div>
       </section>
       <section class="projects" id="projects">
-        <div class="wraper">
-          <h3>Recent Projects</h3>
-          <div class="container">
-            <div id="projectCard1" class="cards">
-              <img src="" alt="" class="projectImg" id="projectCard1_img" />
-              <div class="textInfo">
-                <div id="projectCard1_title" class="bodyMedium"></div>
-                <p id="projectCard1_description" class="headlineRegular"></p>
-                <a href="#" class="headlineRegular">Learn more</a>
-              </div>
-            </div>
-
-            <div id="projectCard2" class="cards">
-              <img src="" alt="" class="projectImg" id="projectCard2_img" />
-              <div class="textInfo">
-                <div id="projectCard2_title" class="bodyMedium"></div>
-                <p id="projectCard2_description" class="headlineRegular"></p>
-
-                <a href="#" class="headlineRegular">Learn more</a>
-              </div>
-            </div>
-            <div id="projectCard3" class="cards">
-              <img src="" alt="" class="projectImg" id="projectCard3_img" />
-              <div class="textInfo">
-                <div id="projectCard3_title" class="bodyMedium"></div>
-                <p id="projectCard3_description" class="headlineRegular"></p>
-                <a href="#" class="headlineRegular">Learn more</a>
-              </div>
-            </div>
-          </div>
-        </div>
       </section>
       <section class="testimonials">
         <div class="wraper">
@@ -195,59 +148,10 @@
           </div>
         </div>
       </section>
-      <section class="CTA-email">
-        <div class="wraper">
-          <div class="container">
-            <div class="textContent">
-              <h3>Do you have any questions?</h3>
-              <p class="bodyRegular">Let us help you!</p>
-            </div>
-
-            <div class="emailForm formContainer">
-              <div class="clientEmail">
-                <img src="./resources/newsletter/icon/mail.svg" alt="" />
-                <input
-                  type="email"
-                  name="clientEmail"
-                  id="inputEmail"
-                  placeholder="Enter your email"
-                  class="headlineRegular"
-                />
-              </div>
-              <div class="button">
-                <a href="#" class="headlineRegular">
-                  <p class="headlineRegular">Subscribe</p>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+      <section class="CTA-email" id="CTAEmail">
       </section>
     </main>
-    <footer class="footer">
-      <div class="wraper">
-        <div class="companyInfo">
-          <img src="./resources/logos/circle.svg" alt="" />
-          <div class="textContent headlineRegular">
-            2972 Westheimer Rd. Santa Ana, Illinois 85486
-          </div>
-        </div>
-        <div class="footerLinks container">
-          <ul class="headlineMedium container footerHref">
-            <li><a href="#">Team</a></li>
-            <li><a href="#">Press</a></li>
-          </ul>
-          <ul class="headlineMedium container footerHref">
-            <li><a href="#services">Services</a></li>
-            <li><a href="#projects">Projects</a></li>
-          </ul>
-          <ul class="headlineMedium container last_href">
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-          </ul>
-        </div>
-      </div>
-    </footer>
+    <footer class="footer" id="footerSection"></footer>
     <script type="module" src="./index.js"></script>
   </body>
 </html>

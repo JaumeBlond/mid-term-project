@@ -6,6 +6,10 @@ const titleField = document.getElementById("title");
 const contentField = document.getElementById("contentField");
 const contentField2 = document.getElementById("contentField2");
 
+const navBar = document.getElementById("navigationBar");
+const footer = document.getElementById("footerSection");
+const emailCTA = document.getElementById("CTAEmail");
+
 function loadProject() {
   const urlParams = new URLSearchParams(window.location.search);
   const project = urlParams.get("uuid");
@@ -80,6 +84,23 @@ function loadLink(id, link) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+  fetch("../components/navBar.html")
+    .then((response) => response.text())
+    .then((htmlContent) => {
+      navBar.innerHTML = htmlContent;
+    });
+
+  fetch("../components/emailCTA.html")
+    .then((response) => response.text())
+    .then((htmlContent) => {
+      emailCTA.innerHTML = htmlContent;
+    });
+  fetch("../components/footer.html")
+    .then((response) => response.text())
+    .then((htmlContent) => {
+      footer.innerHTML = htmlContent;
+    });
+
   loadProject();
 });
 

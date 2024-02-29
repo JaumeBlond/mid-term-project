@@ -1,3 +1,8 @@
+const navBar = document.getElementById("navigationBar");
+const footer = document.getElementById("footerSection");
+const emailCTA = document.getElementById("CTAEmail");
+const projects = document.getElementById("projects");
+
 function loadImage(id, url) {
   let cardID = `projectCard${id}_img`;
   let cardImage = document.getElementById(cardID);
@@ -40,7 +45,28 @@ function loadContent() {
 document.addEventListener(
   "DOMContentLoaded",
   function () {
-    loadContent();
+    fetch("./components/navBar.html")
+      .then((response) => response.text())
+      .then((htmlContent) => {
+        navBar.innerHTML = htmlContent;
+      });
+    fetch("./components/projectsCards.html")
+      .then((response) => response.text())
+      .then((htmlContent) => {
+        projects.innerHTML = htmlContent;
+      })
+      .finally(loadContent());
+
+    fetch("./components/emailCTA.html")
+      .then((response) => response.text())
+      .then((htmlContent) => {
+        emailCTA.innerHTML = htmlContent;
+      });
+    fetch("./components/footer.html")
+      .then((response) => response.text())
+      .then((htmlContent) => {
+        footer.innerHTML = htmlContent;
+      });
   },
   false
 );

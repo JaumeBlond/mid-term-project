@@ -85,6 +85,7 @@
   @media (max-width: 320px) {
     height: calc(240px * var(--percentage-small-mobile));
   }
+}
 
   .textInfo {
     position: relative;
@@ -95,7 +96,7 @@
     height: 144px;
     margin-top: 30px;
     margin-left: 30px;
-  }
+  
 
   @media (max-width: 1020px) {
     height: calc(144px * var(--percentage-laptop));
