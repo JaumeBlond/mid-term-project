@@ -1,4 +1,5 @@
 :root {
+  --width-big-desktop: 2560px;
   --width-desktop: 1440px;
   --width-laptop: 1020px;
   --width-tablet: 768px;
@@ -6,6 +7,7 @@
   --width-medium-phone: 370px;
   --width-small-phone: 320px;
 
+  --percentage-fourk: 1.78;
   --percentage-tablet: 0.53;
   --percentage-laptop: 0.7;
   --percentage-large-mobile: 0.4;
@@ -30,6 +32,8 @@
 }
 
 body {
+  width: var(--width-desktop); /* Adjust width for tablets */
+
   @media (max-width: 1440px) {
     width: var(--width-desktop); /* Adjust width for tablets */
   }
@@ -59,9 +63,7 @@ body {
 }
 
 h1 {
-  @media (max-width: 1440px) {
-    font-size: 60px;
-  }
+  font-size: 60px;
 
   @media (max-width: 1020px) {
     font-size: calc(60px * var(--percentage-laptop));
@@ -87,9 +89,7 @@ h1 {
 }
 
 h2 {
-  @media (max-width: 1440px) {
-    font-size: 50px;
-  }
+  font-size: 50px;
 
   @media (max-width: 1020px) {
     font-size: calc(50px * var(--percentage-laptop));
@@ -114,9 +114,7 @@ h2 {
 }
 
 h3 {
-  @media (max-width: 1440px) {
-    font-size: 40px;
-  }
+  font-size: 40px;
 
   @media (max-width: 1020px) {
     font-size: calc(40px * var(--percentage-laptop));
@@ -138,10 +136,8 @@ h3 {
     font-size: calc(40px * var(--percentage-small-mobile));
   }
   font-weight: bold;
-}
 
-h4 {
-  @media (max-width: 1440px) {
+  h4 {
     font-size: 24px;
   }
 
@@ -168,9 +164,7 @@ h4 {
 }
 
 .bodyMedium {
-  @media (max-width: 1440px) {
-    font-size: 24px;
-  }
+  font-size: 24px;
 
   @media (max-width: 1020px) {
     font-size: calc(24px * var(--percentage-laptop));
@@ -195,9 +189,7 @@ h4 {
 }
 
 .bodyRegular {
-  @media (max-width: 1440px) {
-    font-size: 20px;
-  }
+  font-size: 20px;
 
   @media (max-width: 1020px) {
     font-size: calc(20px * var(--percentage-laptop));
@@ -222,9 +214,7 @@ h4 {
 }
 
 .headlineMedium {
-  @media (max-width: 1440px) {
-    font-size: 17px;
-  }
+  font-size: 17px;
 
   @media (max-width: 1020px) {
     font-size: calc(17px * var(--percentage-laptop));
@@ -249,9 +239,7 @@ h4 {
 }
 
 .headlineRegular {
-  @media (max-width: 1440px) {
-    font-size: 17px;
-  }
+  font-size: 17px;
 
   @media (max-width: 1020px) {
     font-size: calc(17px * var(--percentage-laptop));
@@ -276,9 +264,7 @@ h4 {
 }
 
 .captionOne {
-  @media (max-width: 1440px) {
-    font-size: 15px;
-  }
+  font-size: 15px;
 
   @media (max-width: 1020px) {
     font-size: calc(15px * var(--percentage-laptop));
@@ -303,9 +289,7 @@ h4 {
 }
 
 .captionTwo {
-  @media (max-width: 1440px) {
-    font-size: 13px;
-  }
+  font-size: 13px;
 
   @media (max-width: 1020px) {
     font-size: calc(13px * var(--percentage-laptop));
@@ -339,10 +323,8 @@ h4 {
   justify-content: center; /* center the content horizontally */
   align-items: center;
 
-  @media (max-width: 1440px) {
-    width: 150px;
-    height: 52px;
-  }
+  width: 150px;
+  height: 52px;
 
   @media (max-width: 1020px) {
     width: calc(150px * var(--percentage-laptop));

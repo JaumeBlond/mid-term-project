@@ -4,11 +4,9 @@
   display: flex;
   justify-content: center;
 
-  @media (max-width: 1440px) {
-    width: 1440px;
-    height: 122px;
-    padding-top: 80px;
-  }
+  width: 1440px;
+  height: 122px;
+  padding-top: 80px;
 
   @media (max-width: 1020px) {
     width: calc(1440px * var(--percentage-laptop));
@@ -47,10 +45,8 @@
   justify-content: space-between;
   align-items: center;
 
-  @media (max-width: 1440px) {
-    width: 1100px;
-    height: 52px;
-  }
+  width: 1100px;
+  height: 52px;
 
   @media (max-width: 1020px) {
     width: calc(1100px * var(--percentage-laptop));
@@ -81,9 +77,7 @@
 .navBar .container ul li {
   display: inline;
 
-  @media (max-width: 1440px) {
-    padding-left: 20px;
-  }
+  padding-left: 20px;
 
   @media (max-width: 1020px) {
     padding-left: calc(20px * var(--percentage-laptop));
