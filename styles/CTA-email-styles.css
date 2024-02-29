@@ -2,10 +2,8 @@
   background-color: var(--yellow);
   align-items: center;
 
-  @media (max-width: 1440px) {
-    width: 1320px;
-    height: 500px;
-  }
+  width: 1320px;
+  height: 500px;
 
   @media (max-width: 1020px) {
     width: calc(1320px * var(--percentage-laptop));
@@ -41,11 +39,9 @@
   margin-left: auto;
   margin-right: auto;
 
-  @media (max-width: 1440px) {
-    width: 1100px;
-    height: 227px;
-    margin-top: 136px;
-  }
+  width: 1100px;
+  height: 227px;
+  margin-top: 136px;
 
   @media (max-width: 1020px) {
     width: calc(1100px * var(--percentage-laptop));
@@ -95,11 +91,9 @@
 }
 
 .CTA-email .button {
-  @media (max-width: 1440px) {
-    height: 80px;
-    margin-left: 20px;
-    width: 198px;
-  }
+  height: 80px;
+  margin-left: 20px;
+  width: 198px;
 
   @media (max-width: 1020px) {
     width: calc(198px * var(--percentage-laptop));
@@ -137,9 +131,7 @@
 }
 
 .CTA-email .textContent p {
-  @media (max-width: 1440px) {
-    margin-top: 20px;
-  }
+  margin-top: 20px;
 
   @media (max-width: 1020px) {
     margin-top: calc(20px * var(--percentage-laptop));
@@ -169,11 +161,9 @@
   position: relative;
   display: flex;
 
-  @media (max-width: 1440px) {
-    width: 1440px;
-    height: 500px;
-    margin-top: 136px;
-  }
+  width: 1440px;
+  height: 500px;
+  margin-top: 136px;
 
   @media (max-width: 1020px) {
     width: calc(1440px * var(--percentage-laptop));
@@ -211,10 +201,8 @@
   align-items: center;
   position: sticky;
 
-  @media (max-width: 1440px) {
-    height: 80px;
-    width: 393px;
-  }
+  height: 80px;
+  width: 393px;
 
   @media (max-width: 1020px) {
     height: calc(80px * var(--percentage-laptop));
@@ -243,12 +231,10 @@
 }
 
 .clientEmail img {
-  @media (max-width: 1440px) {
-    height: 30px;
-    width: 30px;
-    padding-left: 30px;
-    padding-top: 25px;
-  }
+  height: 30px;
+  width: 30px;
+  padding-left: 30px;
+  padding-top: 25px;
 
   @media (max-width: 1020px) {
     width: calc(30px * var(--percentage-laptop));
@@ -291,10 +277,8 @@
   display: inline-block;
   border-style: none;
 
-  @media (max-width: 1440px) {
-    height: 80px;
-    padding-left: 10px;
-  }
+  height: 80px;
+  padding-left: 10px;
 
   @media (max-width: 1020px) {
     height: calc(80px * var(--percentage-laptop));

@@ -11,10 +11,8 @@
   align-items: center;
   display: flex;
 
-  @media (max-width: 1440px) {
-    width: 1400px;
-    height: 660px;
-  }
+  width: 1400px;
+  height: 660px;
 
   @media (max-width: 1020px) {
     height: calc(660px * var(--percentage-laptop));
@@ -47,9 +45,7 @@
   display: flex;
   flex-direction: column;
 
-  @media (max-width: 1440px) {
-    width: 1100px;
-  }
+  width: 1100px;
 
   @media (max-width: 1020px) {
     width: calc(1100px * var(--percentage-laptop));
@@ -77,9 +73,7 @@
   margin-left: auto;
   margin-right: auto;
 
-  @media (max-width: 1440px) {
-    margin-top: 80px;
-  }
+  margin-top: 80px;
 
   @media (max-width: 1020px) {
     margin-top: calc(80px * var(--percentage-laptop));
@@ -103,10 +97,8 @@
 }
 
 .contactForm .nameContainer input {
-  @media (max-width: 1440px) {
-    width: 1100px;
-    height: 66px;
-  }
+  width: 1100px;
+  height: 66px;
 
   @media (max-width: 1020px) {
     width: calc(1100px * var(--percentage-laptop));
@@ -144,12 +136,9 @@ input {
   color: var(--pastelGrey);
   border: 0px;
   background-color: rgba(107, 112, 141, 10%);
-
-  @media (max-width: 1440px) {
-    height: 66px;
-    text-indent: 20px;
-    margin-top: 10px;
-  }
+  height: 66px;
+  text-indent: 20px;
+  margin-top: 10px;
 
   @media (max-width: 1020px) {
     height: calc(66px * var(--percentage-laptop));
@@ -187,10 +176,8 @@ input {
   flex-direction: row;
   justify-content: space-between;
 
-  @media (max-width: 1440px) {
-    margin-top: 40px;
-    width: 1100px;
-  }
+  margin-top: 40px;
+  width: 1100px;
 
   @media (max-width: 1020px) {
     width: calc(1100px * var(--percentage-laptop));
@@ -222,9 +209,7 @@ input {
   display: flex;
   flex-direction: column;
 
-  @media (max-width: 1440px) {
-    width: 530px;
-  }
+  width: 530px;
 
   @media (max-width: 1020px) {
     width: calc(530px * var(--percentage-laptop));
@@ -251,13 +236,11 @@ input {
   background-color: rgba(107, 112, 141, 10%);
   border: 0px;
 
-  @media (max-width: 1440px) {
-    width: 1100px;
-    height: 200px;
-    text-indent: 20px;
-    line-height: 20px;
-    margin-top: 10px;
-  }
+  width: 1100px;
+  height: 200px;
+  text-indent: 20px;
+  line-height: 20px;
+  margin-top: 10px;
 
   @media (max-width: 1020px) {
     width: calc(1100px * var(--percentage-laptop));
@@ -303,9 +286,7 @@ input {
 .messageBody {
   color: var(--pastelGrey);
 
-  @media (max-width: 1440px) {
-    margin-top: 40px;
-  }
+  margin-top: 40px;
 
   @media (max-width: 1020px) {
     margin-top: calc(40px * var(--percentage-laptop));
@@ -329,9 +310,7 @@ input {
 }
 
 textarea {
-  @media (max-width: 1440px) {
-    padding-top: 20px;
-  }
+  padding-top: 20px;
 
   @media (max-width: 1020px) {
     padding-top: calc(20px * var(--percentage-laptop));
@@ -357,10 +336,8 @@ textarea {
 .contactForm .button {
   color: white;
 
-  @media (max-width: 1440px) {
-    width: 1100px;
-    margin-top: 40px;
-  }
+  width: 1100px;
+  margin-top: 40px;
 
   @media (max-width: 1020px) {
     width: calc(1100px * var(--percentage-laptop));

@@ -25,9 +25,7 @@
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
-  @media (max-width: 1440px) {
-    width: 1100px;
-  }
+  width: 1100px;
 
   @media (max-width: 1020px) {
     width: calc(1100px * var(--percentage-laptop));
@@ -58,10 +56,8 @@
   justify-content: space-between;
   flex-direction: row;
 
-  @media (max-width: 1440px) {
-    width: 1100px;
-    margin-top: 20px;
-  }
+  width: 1100px;
+  margin-top: 20px;
 
   @media (max-width: 1020px) {
     width: calc(1100px * var(--percentage-laptop));
@@ -95,9 +91,7 @@
 
 .projectData div {
   margin-top: 70px;
-  @media (max-width: 1440px) {
-    margin-top: 20px;
-  }
+  margin-top: 20px;
 
   @media (max-width: 1020px) {
     margin-top: calc(70px * var(--percentage-laptop));
@@ -123,9 +117,7 @@
 .imageCard {
   width: inherit;
 
-  @media (max-width: 1440px) {
-    height: 444px;
-  }
+  height: 444px;
 
   @media (max-width: 1020px) {
     height: calc(444px * var(--percentage-laptop));
@@ -155,10 +147,8 @@
   position: absolute;
   object-fit: cover;
 
-  @media (max-width: 1440px) {
-    width: 1100px;
-    height: 444px;
-  }
+  width: 1100px;
+  height: 444px;
 
   @media (max-width: 1020px) {
     width: calc(1100px * var(--percentage-laptop));
@@ -192,10 +182,8 @@
   position: relative;
   filter: blur(8px);
 
-  @media (max-width: 1440px) {
-    width: 1100px;
-    height: 444px;
-  }
+  width: 1100px;
+  height: 444px;
 
   @media (max-width: 1020px) {
     width: calc(1100px * var(--percentage-laptop));
@@ -228,10 +216,8 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  @media (max-width: 1440px) {
-    width: 1100px;
-    margin-top: 70px;
-  }
+  width: 1100px;
+  margin-top: 70px;
 
   @media (max-width: 1020px) {
     width: calc(1100px * var(--percentage-laptop));
@@ -266,11 +252,9 @@
   margin-right: auto;
   display: flex;
 
-  @media (max-width: 1440px) {
-    width: 1100px;
-    height: 561px;
-    margin-top: 20px;
-  }
+  width: 1100px;
+  height: 561px;
+  margin-top: 20px;
 
   @media (max-width: 1020px) {
     width: calc(1100px * var(--percentage-laptop));

@@ -2,10 +2,8 @@
   background-color: white;
   box-shadow: 0 6px 20px 0 var(--lightGrey), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 
-  @media (max-width: 1440px) {
-    width: 340px;
-    height: 444px;
-  }
+  width: 340px;
+  height: 444px;
 
   @media (max-width: 1020px) {
     width: calc(340px * var(--percentage-laptop));
@@ -34,10 +32,8 @@
 }
 
 .services div div .cards {
-  @media (max-width: 1440px) {
-    width: 340px;
-    height: 380px;
-  }
+  width: 340px;
+  height: 380px;
 
   @media (max-width: 1020px) {
     width: calc(340px * var(--percentage-laptop));
@@ -68,9 +64,7 @@
 .projectImg {
   width: inherit;
   object-fit: cover;
-  @media (max-width: 1440px) {
-    height: 240px;
-  }
+  height: 240px;
 
   @media (max-width: 1020px) {
     height: calc(240px * var(--percentage-laptop));
@@ -91,15 +85,13 @@
   @media (max-width: 320px) {
     height: calc(240px * var(--percentage-small-mobile));
   }
-}
 
-.textInfo {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
+  .textInfo {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 
-  @media (max-width: 1440px) {
     height: 144px;
     margin-top: 30px;
     margin-left: 30px;
@@ -138,9 +130,7 @@
 
 .textInfo p {
   margin-bottom: auto;
-  @media (max-width: 1440px) {
-    margin-top: 10px;
-  }
+  margin-top: 10px;
 
   @media (max-width: 1020px) {
     margin-top: calc(10px * var(--percentage-laptop));
@@ -184,9 +174,7 @@
   height: inherit;
   align-items: start;
 
-  @media (max-width: 1440px) {
-    padding-left: 30px;
-  }
+  padding-left: 30px;
 
   @media (max-width: 1020px) {
     padding-left: calc(30px * var(--percentage-laptop));
@@ -215,10 +203,8 @@
   border-radius: 50%;
   align-items: center;
 
-  @media (max-width: 1440px) {
-    width: 80px;
-    height: 80px;
-  }
+  width: 80px;
+  height: 80px;
 
   @media (max-width: 1020px) {
     width: calc(80px * var(--percentage-laptop));
@@ -247,11 +233,9 @@
 }
 
 .imgBck img {
-  @media (max-width: 1440px) {
-    padding: 20px;
-    width: 40px;
-    height: 40px;
-  }
+  padding: 20px;
+  width: 40px;
+  height: 40px;
 
   @media (max-width: 1020px) {
     padding: calc(20px * var(--percentage-laptop));
@@ -288,10 +272,8 @@
   background-color: white;
   box-shadow: 0 6px 20px 0 var(--lightGrey), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 
-  @media (max-width: 1440px) {
-    width: 340px;
-    height: 444px;
-  }
+  width: 340px;
+  height: 444px;
 
   @media (max-width: 1020px) {
     width: calc(340px * var(--percentage-laptop));
@@ -320,10 +302,8 @@
 }
 
 .services div div .cards {
-  @media (max-width: 1440px) {
-    width: 340px;
-    height: 380px;
-  }
+  width: 340px;
+  height: 380px;
 
   @media (max-width: 1020px) {
     width: calc(340px * var(--percentage-laptop));
@@ -355,9 +335,7 @@
   width: inherit;
   object-fit: cover;
 
-  @media (max-width: 1440px) {
-    height: 240px;
-  }
+  height: 240px;
 
   @media (max-width: 1020px) {
     height: calc(240px * var(--percentage-laptop));
@@ -401,9 +379,7 @@
   height: inherit;
   align-items: start;
 
-  @media (max-width: 1440px) {
-    padding-left: 30px;
-  }
+  padding-left: 30px;
 
   @media (max-width: 1020px) {
     padding-left: calc(30px * var(--percentage-laptop));
@@ -427,9 +403,7 @@
 }
 
 .imgBck img {
-  @media (max-width: 1440px) {
-    padding: 20px;
-  }
+  padding: 20px;
 
   @media (max-width: 1020px) {
     padding: calc(20px * var(--percentage-laptop));
