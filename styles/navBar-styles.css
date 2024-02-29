@@ -1,12 +1,44 @@
-
 .navBar {
   position: relative;
-  width: 1440px;
-  height: 122px;
-  padding-top: 80px;
   margin: auto;
   display: flex;
   justify-content: center;
+
+  @media (max-width: 1440px) {
+    width: 1440px;
+    height: 122px;
+    padding-top: 80px;
+  }
+
+  @media (max-width: 1020px) {
+    width: calc(1440px * var(--percentage-laptop));
+    height: calc(122px * var(--percentage-laptop));
+    padding-top: calc(80px * var(--percentage-laptop));
+  }
+
+  @media (max-width: 768px) {
+    width: calc(1440px * var(--percentage-tablet));
+    height: calc(122px * var(--percentage-tablet));
+    padding-top: calc(80px * var(--percentage-tablet));
+  }
+
+  @media (max-width: 576px) {
+    width: calc(1440px * var(--percentage-large-mobile));
+    height: calc(122px * var(--percentage-large-mobile));
+    padding-top: calc(80px * var(--percentage-large-mobile));
+  }
+
+  @media (max-width: 370px) {
+    width: calc(1440px * var(--percentage-medium-mobile));
+    height: calc(122px * var(--percentage-medium-mobile));
+    padding-top: calc(80px * var(--percentage-medium-mobile));
+  }
+
+  @media (max-width: 320px) {
+    width: calc(1440px * var(--percentage-small-mobile));
+    height: calc(122px * var(--percentage-small-mobile));
+    padding-top: calc(80px * var(--percentage-small-mobile));
+  }
 }
 
 .navBar .container {
@@ -14,13 +46,64 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 1100px;
-  height: 52px;
+
+  @media (max-width: 1440px) {
+    width: 1100px;
+    height: 52px;
+  }
+
+  @media (max-width: 1020px) {
+    width: calc(1100px * var(--percentage-laptop));
+    height: calc(52px * var(--percentage-laptop));
+  }
+
+  @media (max-width: 768px) {
+    width: calc(1100px * var(--percentage-tablet));
+    height: calc(52px * var(--percentage-tablet));
+  }
+
+  @media (max-width: 576px) {
+    width: calc(1100px * var(--percentage-large-mobile));
+    height: calc(52px * var(--percentage-large-mobile));
+  }
+
+  @media (max-width: 370px) {
+    width: calc(1100px * var(--percentage-medium-mobile));
+    height: calc(52px * var(--percentage-medium-mobile));
+  }
+
+  @media (max-width: 320px) {
+    width: calc(1100px * var(--percentage-small-mobile));
+    height: calc(52px * var(--percentage-small-mobile));
+  }
 }
 
 .navBar .container ul li {
   display: inline;
-  padding-left: 20px;
+
+  @media (max-width: 1440px) {
+    padding-left: 20px;
+  }
+
+  @media (max-width: 1020px) {
+    padding-left: calc(20px * var(--percentage-laptop));
+  }
+
+  @media (max-width: 768px) {
+    padding-left: calc(20px * var(--percentage-tablet));
+  }
+
+  @media (max-width: 576px) {
+    padding-left: calc(20px * var(--percentage-large-mobile));
+  }
+
+  @media (max-width: 370px) {
+    padding-left: calc(20px * var(--percentage-medium-mobile));
+  }
+
+  @media (max-width: 320px) {
+    padding-left: calc(20px * var(--percentage-small-mobile));
+  }
 }
 
 .navBar .container ul li a {

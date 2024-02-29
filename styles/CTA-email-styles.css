@@ -1,9 +1,36 @@
-
 .CTA-email .wraper {
-  width: 1320px;
-  height: 500px;
   background-color: var(--yellow);
   align-items: center;
+
+  @media (max-width: 1440px) {
+    width: 1320px;
+    height: 500px;
+  }
+
+  @media (max-width: 1020px) {
+    width: calc(1320px * var(--percentage-laptop));
+    height: calc(500px * var(--percentage-laptop));
+  }
+
+  @media (max-width: 768px) {
+    width: calc(1320px * var(--percentage-tablet));
+    height: calc(500px * var(--percentage-tablet));
+  }
+
+  @media (max-width: 576px) {
+    width: calc(1320px * var(--percentage-large-mobile));
+    height: calc(500px * var(--percentage-large-mobile));
+  }
+
+  @media (max-width: 370px) {
+    width: calc(1320px * var(--percentage-medium-mobile));
+    height: calc(500px * var(--percentage-medium-mobile));
+  }
+
+  @media (max-width: 320px) {
+    width: calc(1320px * var(--percentage-small-mobile));
+    height: calc(500px * var(--percentage-small-mobile));
+  }
 }
 
 .CTA-email .wraper .container {
@@ -11,11 +38,44 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 136px;
   margin-left: auto;
   margin-right: auto;
-  width: 1100px;
-  height: 227px;
+
+  @media (max-width: 1440px) {
+    width: 1100px;
+    height: 227px;
+    margin-top: 136px;
+  }
+
+  @media (max-width: 1020px) {
+    width: calc(1100px * var(--percentage-laptop));
+    height: calc(227px * var(--percentage-laptop));
+    margin-top: calc(136px * var(--percentage-laptop));
+  }
+
+  @media (max-width: 768px) {
+    width: calc(1100px * var(--percentage-tablet));
+    height: calc(227px * var(--percentage-tablet));
+    margin-top: calc(136px * var(--percentage-tablet));
+  }
+
+  @media (max-width: 576px) {
+    width: calc(1100px * var(--percentage-large-mobile));
+    height: calc(227px * var(--percentage-large-mobile));
+    margin-top: calc(136px * var(--percentage-large-mobile));
+  }
+
+  @media (max-width: 370px) {
+    width: calc(1100px * var(--percentage-medium-mobile));
+    height: calc(227px * var(--percentage-medium-mobile));
+    margin-top: calc(136px * var(--percentage-medium-mobile));
+  }
+
+  @media (max-width: 320px) {
+    width: calc(1100px * var(--percentage-small-mobile));
+    height: calc(227px * var(--percentage-small-mobile));
+    margin-top: calc(136px * var(--percentage-small-mobile));
+  }
 }
 
 .CTA-email .container {
@@ -35,9 +95,41 @@
 }
 
 .CTA-email .button {
-  height: 80px;
-  margin-left: 20px;
-  width: 198px;
+  @media (max-width: 1440px) {
+    height: 80px;
+    margin-left: 20px;
+    width: 198px;
+  }
+
+  @media (max-width: 1020px) {
+    width: calc(198px * var(--percentage-laptop));
+    height: calc(80px * var(--percentage-laptop));
+    margin-left: calc(20px * var(--percentage-laptop));
+  }
+
+  @media (max-width: 768px) {
+    width: calc(198px * var(--percentage-tablet));
+    height: calc(80px * var(--percentage-tablet));
+    margin-left: calc(20px * var(--percentage-tablet));
+  }
+
+  @media (max-width: 576px) {
+    width: calc(198px * var(--percentage-large-mobile));
+    height: calc(80px * var(--percentage-large-mobile));
+    margin-left: calc(20px * var(--percentage-large-mobile));
+  }
+
+  @media (max-width: 370px) {
+    width: calc(198px * var(--percentage-medium-mobile));
+    height: calc(80px * var(--percentage-medium-mobile));
+    margin-left: calc(20px * var(--percentage-medium-mobile));
+  }
+
+  @media (max-width: 320px) {
+    width: calc(198px * var(--percentage-small-mobile));
+    height: calc(80px * var(--percentage-small-mobile));
+    margin-left: calc(20px * var(--percentage-small-mobile));
+  }
 }
 
 .CTA-email .textContent {
@@ -45,41 +137,189 @@
 }
 
 .CTA-email .textContent p {
-  margin-top: 20px;
+  @media (max-width: 1440px) {
+    margin-top: 20px;
+  }
+
+  @media (max-width: 1020px) {
+    margin-top: calc(20px * var(--percentage-laptop));
+  }
+
+  @media (max-width: 768px) {
+    margin-top: calc(20px * var(--percentage-tablet));
+  }
+
+  @media (max-width: 576px) {
+    margin-top: calc(20px * var(--percentage-large-mobile));
+  }
+
+  @media (max-width: 370px) {
+    margin-top: calc(20px * var(--percentage-medium-mobile));
+  }
+
+  @media (max-width: 320px) {
+    margin-top: calc(20px * var(--percentage-small-mobile));
+  }
 }
 
 .CTA-email {
-  width: 1440px;
-  height: 500px;
   justify-content: center;
-  margin-top: 136px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
   display: flex;
+
+  @media (max-width: 1440px) {
+    width: 1440px;
+    height: 500px;
+    margin-top: 136px;
+  }
+
+  @media (max-width: 1020px) {
+    width: calc(1440px * var(--percentage-laptop));
+    height: calc(500px * var(--percentage-laptop));
+    margin-top: calc(136px * var(--percentage-laptop));
+  }
+
+  @media (max-width: 768px) {
+    width: calc(1440px * var(--percentage-tablet));
+    height: calc(500px * var(--percentage-tablet));
+    margin-top: calc(136px * var(--percentage-tablet));
+  }
+
+  @media (max-width: 576px) {
+    width: calc(1440px * var(--percentage-large-mobile));
+    height: calc(500px * var(--percentage-large-mobile));
+    margin-top: calc(136px * var(--percentage-large-mobile));
+  }
+
+  @media (max-width: 370px) {
+    width: calc(1440px * var(--percentage-medium-mobile));
+    height: calc(500px * var(--percentage-medium-mobile));
+    margin-top: calc(136px * var(--percentage-medium-mobile));
+  }
+
+  @media (max-width: 320px) {
+    width: calc(1440px * var(--percentage-small-mobile));
+    height: calc(500px * var(--percentage-small-mobile));
+    margin-top: calc(136px * var(--percentage-small-mobile));
+  }
 }
 
 .clientEmail {
-  height: 80px;
-  width: 393px;
   background-color: white;
   align-items: center;
   position: sticky;
+
+  @media (max-width: 1440px) {
+    height: 80px;
+    width: 393px;
+  }
+
+  @media (max-width: 1020px) {
+    height: calc(80px * var(--percentage-laptop));
+    width: calc(393px * var(--percentage-laptop));
+  }
+
+  @media (max-width: 768px) {
+    height: calc(80px * var(--percentage-tablet));
+    width: calc(393px * var(--percentage-tablet));
+  }
+
+  @media (max-width: 576px) {
+    height: calc(80px * var(--percentage-large-mobile));
+    width: calc(393px * var(--percentage-large-mobile));
+  }
+
+  @media (max-width: 370px) {
+    height: calc(80px * var(--percentage-medium-mobile));
+    width: calc(393px * var(--percentage-medium-mobile));
+  }
+
+  @media (max-width: 320px) {
+    height: calc(80px * var(--percentage-small-mobile));
+    width: calc(393px * var(--percentage-small-mobile));
+  }
 }
 
 .clientEmail img {
-  height: 30px;
-  width: 30px;
-  padding-left: 30px;
-  padding-top: 25px;
+  @media (max-width: 1440px) {
+    height: 30px;
+    width: 30px;
+    padding-left: 30px;
+    padding-top: 25px;
+  }
+
+  @media (max-width: 1020px) {
+    width: calc(30px * var(--percentage-laptop));
+    height: calc(30px * var(--percentage-laptop));
+    padding-left: calc(30px * var(--percentage-laptop));
+    padding-top: calc(25px * var(--percentage-laptop));
+  }
+
+  @media (max-width: 768px) {
+    width: calc(30px * var(--percentage-tablet));
+    height: calc(30px * var(--percentage-tablet));
+    padding-left: calc(30px * var(--percentage-tablet));
+    padding-top: calc(25px * var(--percentage-tablet));
+  }
+
+  @media (max-width: 576px) {
+    width: calc(30px * var(--percentage-large-mobile));
+    height: calc(30px * var(--percentage-large-mobile));
+    padding-left: calc(30px * var(--percentage-large-mobile));
+    padding-top: calc(25px * var(--percentage-large-mobile));
+  }
+
+  @media (max-width: 370px) {
+    width: calc(30px * var(--percentage-medium-mobile));
+    height: calc(30px * var(--percentage-medium-mobile));
+    padding-left: calc(30px * var(--percentage-medium-mobile));
+    padding-top: calc(25px * var(--percentage-medium-mobile));
+  }
+
+  @media (max-width: 320px) {
+    width: calc(30px * var(--percentage-small-mobile));
+    height: calc(30px * var(--percentage-small-mobile));
+    padding-left: calc(30px * var(--percentage-small-mobile));
+    padding-top: calc(25px * var(--percentage-small-mobile));
+  }
 }
 
 #inputEmail {
-  height: 80px;
   position: absolute;
-  padding-left: 10px;
   display: inline-block;
   border-style: none;
+
+  @media (max-width: 1440px) {
+    height: 80px;
+    padding-left: 10px;
+  }
+
+  @media (max-width: 1020px) {
+    height: calc(80px * var(--percentage-laptop));
+    padding-left: calc(10px * var(--percentage-laptop));
+  }
+
+  @media (max-width: 768px) {
+    height: calc(80px * var(--percentage-tablet));
+    padding-left: calc(10px * var(--percentage-tablet));
+  }
+
+  @media (max-width: 576px) {
+    height: calc(80px * var(--percentage-large-mobile));
+    padding-left: calc(10px * var(--percentage-large-mobile));
+  }
+
+  @media (max-width: 370px) {
+    height: calc(80px * var(--percentage-medium-mobile));
+    padding-left: calc(10px * var(--percentage-medium-mobile));
+  }
+
+  @media (max-width: 320px) {
+    height: calc(80px * var(--percentage-small-mobile));
+    padding-left: calc(10px * var(--percentage-small-mobile));
+  }
 }
 
 .emailForm {
