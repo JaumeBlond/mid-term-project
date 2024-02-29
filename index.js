@@ -24,7 +24,7 @@ function setProjectLink(id, uuid) {
 
 function loadContent() {
   for (let i = 1; i <= 3; i++) {
-    const response = fetch(`http://localhost:8000/projects?uuid=${i}`)
+    fetch(`https://ih-json-server-zpfb.onrender.com/projects?uuid=${i}`)
       .then((response) => response.json())
       .then((data) => {
         data.map((project) => {

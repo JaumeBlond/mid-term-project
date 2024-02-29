@@ -17,7 +17,9 @@ function loadProject() {
 }
 
 function loadProjectInfo(projectId) {
-  const response = fetch(`http://localhost:8000/projects?uuid=${projectId}`)
+  const response = fetch(
+    `https://ih-json-server-zpfb.onrender.com/projects?uuid=${projectId}`
+  )
     .then((response) => response.json())
     .then((data) => {
       data.map((project) => {
@@ -39,7 +41,7 @@ function loadOtherProjects(currentID) {
     if (cardId == currentID) {
       cardId++;
     }
-    fetch(`http://localhost:8000/projects?uuid=${cardId}`)
+    fetch(`https://ih-json-server-zpfb.onrender.com/projects?uuid=${cardId}`)
       .then((response) => response.json())
       .then((data) => {
         data.map((project) => {
