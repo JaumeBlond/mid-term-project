@@ -24,7 +24,7 @@ function setProjectLink(id, uuid) {
 
 function loadContent() {
   for (let i = 1; i <= 3; i++) {
-    const response = fetch(`http://localhost:8000/projects?uuid=${i}`)
+    fetch(`https://ih-json-server-zpfb.onrender.com/projects?uuid=${i}`)
       .then((response) => response.json())
       .then((data) => {
         data.map((project) => {
@@ -44,18 +44,6 @@ document.addEventListener(
   },
   false
 );
-
-const jsonServer = require("json-server");
-const server = jsonServer.create();
-const router = jsonServer.router("db.json");
-const middlewares = jsonServer.defaults();
-const port = process.env.PORT || 3000;
-
-server.use(middlewares);
-server.use(router);
-server.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
-});
 
 // The following is required to make unit tests work.
 /* Environment setup. Do not modify the below code. */
