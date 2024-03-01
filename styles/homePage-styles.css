@@ -11,6 +11,10 @@
   align-items: center;
   width: 1100px;
 
+  @media (min-width: 1440px) {
+    width: calc(1100px * var(--percentage-fourk));
+  }
+
   @media (max-width: 1020px) {
     width: calc(1100px * var(--percentage-laptop));
   }
@@ -36,6 +40,10 @@
   display: flex;
   flex-direction: column;
   width: 1100px;
+
+  @media (min-width: 1440px) {
+    width: calc(1100px * var(--percentage-fourk));
+  }
 
   @media (max-width: 1020px) {
     width: calc(1100px * var(--percentage-laptop));
@@ -65,6 +73,11 @@
   align-items: center;
   width: 1100px;
   margin-top: 70px;
+
+  @media (min-width: 1440px) {
+    width: calc(1100px * var(--percentage-fourk));
+    margin-top: calc(70px * var(--percentage-laptop));
+  }
 
   @media (max-width: 1020px) {
     width: calc(1100px * var(--percentage-laptop));
@@ -99,6 +112,10 @@
   align-items: center;
   width: 1320px;
 
+  @media (min-width: 1440px) {
+    width: calc(1320px * var(--percentage-fourk));
+  }
+
   @media (max-width: 1020px) {
     width: calc(1320px * var(--percentage-laptop));
   }
@@ -131,6 +148,11 @@
   align-items: center;
   width: 1100px;
   margin-top: 70px;
+
+  @media (min-width: 1440px) {
+    width: calc(1100px * var(--percentage-fourk));
+    margin-top: calc(70px * var(--percentage-fourk));
+  }
 
   @media (max-width: 1020px) {
     width: calc(1100px * var(--percentage-laptop));
@@ -171,6 +193,11 @@
   width: 1100px;
   height: 382px;
 
+  @media (min-width: 1440px) {
+    width: calc(1100px * var(--percentage-fourk));
+    height: calc(382px * var(--percentage-fourk));
+  }
+
   @media (max-width: 1020px) {
     width: calc(1100px * var(--percentage-laptop));
     height: calc(382px * var(--percentage-laptop));
@@ -205,6 +232,11 @@
   flex-direction: column;
   width: 621px;
   height: 382px;
+
+  @media (min-width: 1440px) {
+    width: calc(621px * var(--percentage-fourk));
+    height: calc(382px * var(--percentage-fourk));
+  }
 
   @media (max-width: 1020px) {
     width: calc(621px * var(--percentage-laptop));
@@ -247,6 +279,11 @@
   width: 171px;
   height: 50px;
 
+  @media (min-width: 1440px) {
+    width: calc(171px * var(--percentage-fourk));
+    height: calc(50px * var(--percentage-fourk));
+  }
+
   @media (max-width: 1020px) {
     width: calc(171px * var(--percentage-laptop));
     height: calc(50px * var(--percentage-laptop));
@@ -283,6 +320,11 @@
   padding-left: 10px;
   padding-bottom: 5px;
 
+  @media (min-width: 1440px) {
+    padding-left: calc(10px * var(--percentage-fourk));
+    padding-bottom: calc(5px * var(--percentage-fourk));
+  }
+
   @media (max-width: 1020px) {
     padding-left: calc(10px * var(--percentage-laptop));
     padding-bottom: calc(5px * var(--percentage-laptop));
@@ -312,6 +354,10 @@
 .userData div p {
   text-align: start;
   padding-top: 5px;
+
+  @media (min-width: 1440px) {
+    padding-top: calc(5px * var(--percentage-fourk));
+  }
 
   @media (max-width: 1020px) {
     padding-top: calc(5px * var(--percentage-laptop));
@@ -348,6 +394,11 @@
   width: 50px;
   height: 50px;
 
+  @media (min-width: 1440px) {
+    width: calc(50px * var(--percentage-fourk));
+    height: calc(50px * var(--percentage-fourk));
+  }
+
   @media (max-width: 1020px) {
     width: calc(50px * var(--percentage-laptop));
     height: calc(50px * var(--percentage-laptop));
@@ -378,6 +429,11 @@
   width: 150px;
   height: 150px;
 
+  @media (min-width: 1440px) {
+    width: calc(150px * var(--percentage-fourk));
+    height: calc(150px * var(--percentage-fourk));
+  }
+
   @media (max-width: 1020px) {
     width: calc(150px * var(--percentage-laptop));
     height: calc(150px * var(--percentage-laptop));
@@ -406,6 +462,10 @@
 
 .animojis {
   height: 498px;
+
+  @media (min-width: 1440px) {
+    height: calc(498px * var(--percentage-fourk));
+  }
 
   @media (max-width: 1020px) {
     height: calc(498px * var(--percentage-laptop));
@@ -436,8 +496,11 @@
   height: inherit;
   padding-left: 65px;
   padding-right: 65px;
-  padding-left: 65px;
-  padding-right: 65px;
+
+  @media (min-width: 1440px) {
+    padding-left: calc(65px * var(--percentage-fourk));
+    padding-right: calc(65px * var(--percentage-fourk));
+  }
 
   @media (max-width: 1020px) {
     padding-left: calc(65px * var(--percentage-laptop));
@@ -472,6 +535,10 @@
   align-items: center;
   width: 1100px;
 
+  @media (min-width: 1440px) {
+    width: calc(1100px * var(--percentage-fourk));
+  }
+
   @media (max-width: 1020px) {
     width: calc(1100px * var(--percentage-laptop));
   }
@@ -500,6 +567,11 @@
   align-items: center;
   width: 1100px;
   margin-top: 70px;
+
+  @media (min-width: 1440px) {
+    width: calc(1100px * var(--percentage-fourk));
+    margin-top: calc(70px * var(--percentage-fourk));
+  }
 
   @media (max-width: 1020px) {
     width: calc(1100px * var(--percentage-laptop));
@@ -535,6 +607,10 @@
   width: 1320px;
   width: 1320px;
 
+  @media (min-width: 1440px) {
+    width: calc(1320px * var(--percentage-fourk));
+  }
+
   @media (max-width: 1020px) {
     width: calc(1320px * var(--percentage-laptop));
   }
@@ -567,6 +643,11 @@
   align-items: center;
   width: 1100px;
   margin-top: 70px;
+
+  @media (min-width: 1440px) {
+    width: calc(1100px * var(--percentage-fourk));
+    margin-top: calc(70px * var(--percentage-fourk));
+  }
 
   @media (max-width: 1020px) {
     width: calc(1100px * var(--percentage-laptop));
@@ -607,6 +688,11 @@
   width: 1100px;
   height: 382px;
 
+  @media (min-width: 1440px) {
+    width: calc(1100px * var(--percentage-fourk));
+    height: calc(382px * var(--percentage-fourk));
+  }
+
   @media (max-width: 1020px) {
     width: calc(1100px * var(--percentage-laptop));
     height: calc(382px * var(--percentage-laptop));
@@ -642,6 +728,11 @@
   width: 621px;
   height: 382px;
 
+  @media (min-width: 1440px) {
+    width: calc(621px * var(--percentage-fourk));
+    height: calc(382px * var(--percentage-fourk));
+  }
+
   @media (max-width: 1020px) {
     width: calc(621px * var(--percentage-laptop));
     height: calc(382px * var(--percentage-laptop));
@@ -674,6 +765,11 @@
 .testimonials .wraper .textContent .userData {
   width: 171px;
   height: 50px;
+
+  @media (min-width: 1440px) {
+    width: calc(171px * var(--percentage-fourk));
+    height: calc(50px * var(--percentage-fourk));
+  }
 
   @media (max-width: 1020px) {
     width: calc(171px * var(--percentage-laptop));
@@ -717,6 +813,11 @@
   padding-left: 10px;
   padding-bottom: 5px;
 
+  @media (min-width: 1440px) {
+    padding-left: calc(10px * var(--percentage-fourk));
+    padding-bottom: calc(5px * var(--percentage-fourk));
+  }
+
   @media (max-width: 1020px) {
     padding-left: calc(10px * var(--percentage-laptop));
     padding-bottom: calc(5px * var(--percentage-laptop));
@@ -746,6 +847,10 @@
 .userData div p {
   text-align: start;
   padding-top: 5px;
+
+  @media (min-width: 1440px) {
+    padding-top: calc(5px * var(--percentage-fourk));
+  }
 
   @media (max-width: 1020px) {
     padding-top: calc(5px * var(--percentage-laptop));
@@ -781,6 +886,11 @@
   width: 50px;
   height: 50px;
 
+  @media (min-width: 1440px) {
+    width: calc(50px * var(--percentage-fourk));
+    height: calc(50px * var(--percentage-fourk));
+  }
+
   @media (max-width: 1020px) {
     width: calc(50px * var(--percentage-laptop));
     height: calc(50px * var(--percentage-laptop));
@@ -811,6 +921,11 @@
   width: 150px;
   height: 150px;
 
+  @media (min-width: 1440px) {
+    width: calc(150px * var(--percentage-fourk));
+    height: calc(150px * var(--percentage-fourk));
+  }
+
   @media (max-width: 1020px) {
     width: calc(150px * var(--percentage-laptop));
     height: calc(150px * var(--percentage-laptop));
@@ -839,6 +954,10 @@
 
 .animojis {
   height: 498px;
+
+  @media (min-width: 1440px) {
+    height: calc(498px * var(--percentage-fourk));
+  }
 
   @media (max-width: 1020px) {
     height: calc(498px * var(--percentage-laptop));
@@ -870,6 +989,11 @@
 
   padding-left: 65px;
   padding-right: 65px;
+
+  @media (min-width: 1440px) {
+    padding-left: calc(65px * var(--percentage-fourk));
+    padding-right: calc(65px * var(--percentage-fourk));
+  }
 
   @media (max-width: 1020px) {
     padding-left: calc(65px * var(--percentage-laptop));
@@ -904,6 +1028,10 @@
   align-items: center;
   width: 1100px;
 
+  @media (min-width: 1440px) {
+    width: calc(1100px * var(--percentage-fourk));
+  }
+
   @media (max-width: 1020px) {
     width: calc(1100px * var(--percentage-laptop));
   }
@@ -929,6 +1057,11 @@
   filter: grayscale(1);
   width: 96px;
   height: 32px;
+
+  @media (min-width: 1440px) {
+    width: calc(96px * var(--percentage-fourk));
+    height: calc(32px * var(--percentage-fourk));
+  }
 
   @media (max-width: 1020px) {
     width: calc(96px * var(--percentage-laptop));
@@ -966,6 +1099,12 @@
   width: 332px;
   height: 371px;
   left: -70px;
+
+  @media (min-width: 1440px) {
+    width: calc(332px * var(--percentage-fourk));
+    height: calc(371px * var(--percentage-fourk));
+    left: calc(-70px * var(--percentage-fourk));
+  }
 
   @media (max-width: 1020px) {
     width: calc(332px * var(--percentage-laptop));
@@ -1005,6 +1144,13 @@
   right: -90px;
   bottom: -80px;
 
+  @media (min-width: 1440px) {
+    width: calc(332px * var(--percentage-fourk));
+    height: calc(338px * var(--percentage-fourk));
+    right: calc(-90px * var(--percentage-fourk));
+    bottom: calc(-80px * var(--percentage-fourk));
+  }
+
   @media (max-width: 1020px) {
     width: calc(332px * var(--percentage-laptop));
     height: calc(338px * var(--percentage-laptop));
@@ -1034,7 +1180,7 @@
   }
 
   @media (max-width: 320px) {
-    width: calc(1100px * var(--percentage-small-mobile));
+    width: calc(332px * var(--percentage-small-mobile));
     height: calc(338px * var(--percentage-small-mobile));
     right: calc(-90px * var(--percentage-small-mobile));
     bottom: calc(-80px * var(--percentage-small-mobile));
@@ -1048,6 +1194,11 @@
   background-size: contain;
   width: 550px;
   height: 650px;
+
+  @media (min-width: 1440px) {
+    width: calc(550px * var(--percentage-fourk));
+    height: calc(650px * var(--percentage-fourk));
+  }
 
   @media (max-width: 1020px) {
     width: calc(550px * var(--percentage-laptop));
@@ -1087,6 +1238,11 @@
   width: 550px;
   height: 422px;
 
+  @media (min-width: 1440px) {
+    width: calc(550px * var(--percentage-fourk));
+    height: calc(422px * var(--percentage-fourk));
+  }
+
   @media (max-width: 1020px) {
     width: calc(550px * var(--percentage-laptop));
     height: calc(422px * var(--percentage-laptop));
@@ -1119,6 +1275,10 @@
 .heroLinks {
   height: 52px;
 
+  @media (min-width: 1440px) {
+    height: calc(52px * var(--percentage-fourk));
+  }
+
   @media (max-width: 1020px) {
     height: calc(52px * var(--percentage-laptop));
   }
@@ -1147,6 +1307,12 @@
   width: 1440px;
   height: 650px;
   margin-top: 100px;
+
+  @media (min-width: 1440px) {
+    width: calc(1440px * var(--percentage-fourk));
+    height: calc(650px * var(--percentage-fourk));
+    margin-top: calc(100px * var(--percentage-fourk));
+  }
 
   @media (max-width: 1020px) {
     width: calc(1440px * var(--percentage-laptop));
@@ -1196,6 +1362,12 @@
   height: 92px;
   margin-top: 130px;
 
+  @media (min-width: 1440px) {
+    width: calc(1440px * var(--percentage-fourk));
+    height: calc(92px * var(--percentage-fourk));
+    margin-top: calc(130px * var(--percentage-fourk));
+  }
+
   @media (max-width: 1020px) {
     width: calc(1440px * var(--percentage-laptop));
     height: calc(92px * var(--percentage-laptop));
@@ -1237,6 +1409,12 @@
   width: 1440px;
   height: 561px;
   margin-top: 200px;
+
+  @media (min-width: 1440px) {
+    width: calc(1440px * var(--percentage-fourk));
+    height: calc(561px * var(--percentage-fourk));
+    margin-top: calc(200px * var(--percentage-fourk));
+  }
 
   @media (max-width: 1020px) {
     width: calc(1440px * var(--percentage-laptop));
@@ -1281,6 +1459,12 @@
   height: 622px;
   margin-top: 200px;
 
+  @media (min-width: 1440px) {
+    width: calc(1440px * var(--percentage-fourk));
+    height: calc(622px * var(--percentage-fourk));
+    margin-top: calc(200px * var(--percentage-fourk));
+  }
+
   @media (max-width: 1020px) {
     width: calc(1440px * var(--percentage-laptop));
     height: calc(622px * var(--percentage-laptop));
@@ -1322,6 +1506,12 @@
   width: 1440px;
   height: 561px;
   margin-top: 200px;
+
+  @media (min-width: 1440px) {
+    width: calc(1440px * var(--percentage-fourk));
+    height: calc(561px * var(--percentage-fourk));
+    margin-top: calc(200px * var(--percentage-fourk));
+  }
 
   @media (max-width: 1020px) {
     width: calc(1440px * var(--percentage-laptop));

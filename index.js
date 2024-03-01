@@ -42,6 +42,14 @@ function loadContent() {
   }
 }
 
+function setListener() {
+  const submitButton = document.getElementById("CTAButton");
+  submitButton.addEventListener("click", function () {
+    const email = document.getElementById("inputEmail");
+    alert(`We will contact you soon on: ${email.value.trim()}`);
+  });
+}
+
 document.addEventListener(
   "DOMContentLoaded",
   function () {
@@ -61,7 +69,8 @@ document.addEventListener(
       .then((response) => response.text())
       .then((htmlContent) => {
         emailCTA.innerHTML = htmlContent;
-      });
+      })
+      .finally(setListener);
     fetch("./components/footer.html")
       .then((response) => response.text())
       .then((htmlContent) => {

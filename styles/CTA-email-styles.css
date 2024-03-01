@@ -5,6 +5,11 @@
   width: 1320px;
   height: 500px;
 
+  @media (min-width: 1440px) {
+    width: calc(1320px * var(--percentage-fourk));
+    height: calc(500px * var(--percentage-fourk));
+  }
+
   @media (max-width: 1020px) {
     width: calc(1320px * var(--percentage-laptop));
     height: calc(500px * var(--percentage-laptop));
@@ -42,6 +47,12 @@
   width: 1100px;
   height: 227px;
   margin-top: 136px;
+
+  @media (min-width: 1440px) {
+    width: calc(1100px * var(--percentage-fourk));
+    height: calc(227px * var(--percentage-fourk));
+    margin-top: calc(136px * var(--percentage-fourk));
+  }
 
   @media (max-width: 1020px) {
     width: calc(1100px * var(--percentage-laptop));
@@ -95,6 +106,12 @@
   margin-left: 20px;
   width: 198px;
 
+  @media (min-width: 1440px) {
+    width: calc(198px * var(--percentage-fourk));
+    height: calc(80px * var(--percentage-fourk));
+    margin-left: calc(20px * var(--percentage-fourk));
+  }
+
   @media (max-width: 1020px) {
     width: calc(198px * var(--percentage-laptop));
     height: calc(80px * var(--percentage-laptop));
@@ -133,6 +150,10 @@
 .CTA-email .textContent p {
   margin-top: 20px;
 
+  @media (min-width: 1440px) {
+    margin-top: calc(20px * var(--percentage-fourk));
+  }
+
   @media (max-width: 1020px) {
     margin-top: calc(20px * var(--percentage-laptop));
   }
@@ -164,6 +185,12 @@
   width: 1440px;
   height: 500px;
   margin-top: 136px;
+
+  @media (min-width: 1440px) {
+    width: calc(1440px * var(--percentage-fourk));
+    height: calc(500px * var(--percentage-fourk));
+    margin-top: calc(136px * var(--percentage-fourk));
+  }
 
   @media (max-width: 1020px) {
     width: calc(1440px * var(--percentage-laptop));
@@ -204,6 +231,11 @@
   height: 80px;
   width: 393px;
 
+  @media (min-width: 1440px) {
+    height: calc(80px * var(--percentage-fourk));
+    width: calc(393px * var(--percentage-fourk));
+  }
+
   @media (max-width: 1020px) {
     height: calc(80px * var(--percentage-laptop));
     width: calc(393px * var(--percentage-laptop));
@@ -235,6 +267,13 @@
   width: 30px;
   padding-left: 30px;
   padding-top: 25px;
+
+  @media (min-width: 1440px) {
+    width: calc(30px * var(--percentage-fourk));
+    height: calc(30px * var(--percentage-fourk));
+    padding-left: calc(30px * var(--percentage-fourk));
+    padding-top: calc(25px * var(--percentage-fourk));
+  }
 
   @media (max-width: 1020px) {
     width: calc(30px * var(--percentage-laptop));
@@ -279,6 +318,11 @@
 
   height: 80px;
   padding-left: 10px;
+
+  @media (min-width: 1440px) {
+    height: calc(80px * var(--percentage-fourk));
+    padding-left: calc(10px * var(--percentage-fourk));
+  }
 
   @media (max-width: 1020px) {
     height: calc(80px * var(--percentage-laptop));
