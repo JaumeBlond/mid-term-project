@@ -1,5 +1,5 @@
 :root {
-  --width-big-desktop: 2560px;
+  --width-big-desktop: 1920px;
   --width-desktop: 1440px;
   --width-laptop: 1020px;
   --width-tablet: 768px;
@@ -7,7 +7,7 @@
   --width-medium-phone: 370px;
   --width-small-phone: 320px;
 
-  --percentage-fourk: 1.78;
+  --percentage-fourk: 1.28;
   --percentage-tablet: 0.53;
   --percentage-laptop: 0.7;
   --percentage-large-mobile: 0.4;
@@ -34,27 +34,27 @@
 body {
   width: var(--width-desktop); /* Adjust width for tablets */
 
-  @media (max-width: 1440px) {
-    width: var(--width-desktop); /* Adjust width for tablets */
+  @media (min-width: 1470px) {
+    width: 1920px; /* Adjust width for tablets */
   }
 
-  @media (max-width: 1020) {
+  @media (max-width: 1044px) {
     width: var(--width-laptop); /* Adjust width for tablets */
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 788px) {
     width: var(--width-tablet); /* Adjust width for tablets */
   }
 
-  @media (max-width: 576px) {
+  @media (max-width: 596px) {
     width: var(--width-large-phone); /* Adjust width for tablets */
   }
 
-  @media (max-width: 370px) {
+  @media (max-width: 390px) {
     width: var(--width-medium-phone); /* Adjust width for tablets */
   }
 
-  @media (max-width: 320px) {
+  @media (max-width: 340px) {
     width: var(--width-small-phone); /* Adjust width for tablets */
   }
 
