@@ -10,7 +10,8 @@ const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // Regular expression for email
 const phoneRegex = /^(?:6|7|9)\d{8}$/; // Regular expression for Spanish phone number validation without country code
 
 function checkFields() {
-  if (formName.value.trim() == "ironhack") {
+  const nameField = formName.value.trim();
+  if (nameField.toLowerCase() == "ironhack") {
     alert("You cannot be Ironhack, because I am Ironhack");
   }
 }
@@ -43,6 +44,14 @@ function checkSubmit() {
   }
 }
 
+function addListeners() {
+  const submitButton = document.getElementById("CTAButton");
+  submitButton.addEventListener("click", function () {
+    const email = document.getElementById("inputEmail");
+    alert(`We will contact you soon on: ${email.value.trim()}`);
+  });
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   submitForm.addEventListener("click", checkFields);
 
@@ -55,7 +64,8 @@ document.addEventListener("DOMContentLoaded", () => {
     .then((response) => response.text())
     .then((htmlContent) => {
       navBar.innerHTML = htmlContent;
-    });
+    })
+    .finally(addListeners());
   fetch("./components/footer.html")
     .then((response) => response.text())
     .then((htmlContent) => {
