@@ -65,7 +65,7 @@ body {
 h1 {
   font-size: 60px;
 
-  @media (min-width: 1440px) {
+  @media (min-width: 1470px) {
     font-size: calc(60px * var(--percentage-fourk));
   }
 
@@ -95,7 +95,7 @@ h1 {
 h2 {
   font-size: 50px;
 
-  @media (min-width: 1440px) {
+  @media (min-width: 1470px) {
     font-size: calc(50px * var(--percentage-fourk));
   }
 
@@ -124,7 +124,7 @@ h2 {
 h3 {
   font-size: 40px;
 
-  @media (min-width: 1440px) {
+  @media (min-width: 1470px) {
     font-size: calc(40px * var(--percentage-fourk));
   }
 
@@ -153,7 +153,7 @@ h3 {
 h4 {
   font-size: 24px;
 
-  @media (min-width: 1440px) {
+  @media (min-width: 1470px) {
     font-size: calc(24px * var(--percentage-fourk));
   }
 
@@ -182,7 +182,7 @@ h4 {
 .bodyMedium {
   font-size: 24px;
 
-  @media (min-width: 1440px) {
+  @media (min-width: 1470px) {
     font-size: calc(24px * var(--percentage-fourk));
   }
 
@@ -211,7 +211,7 @@ h4 {
 .bodyRegular {
   font-size: 20px;
 
-  @media (min-width: 1440px) {
+  @media (min-width: 1470px) {
     font-size: calc(20px * var(--percentage-fourk));
   }
 
@@ -240,7 +240,7 @@ h4 {
 .headlineMedium {
   font-size: 17px;
 
-  @media (min-width: 1440px) {
+  @media (min-width: 1470px) {
     font-size: calc(17px * var(--percentage-fourk));
   }
 
@@ -269,7 +269,7 @@ h4 {
 .headlineRegular {
   font-size: 17px;
 
-  @media (min-width: 1440px) {
+  @media (min-width: 1470px) {
     font-size: calc(17px * var(--percentage-fourk));
   }
 
@@ -298,7 +298,7 @@ h4 {
 .captionOne {
   font-size: 15px;
 
-  @media (min-width: 1440px) {
+  @media (min-width: 1470px) {
     font-size: calc(15px * var(--percentage-fourk));
   }
 
@@ -327,7 +327,7 @@ h4 {
 .captionTwo {
   font-size: 13px;
 
-  @media (min-width: 1440px) {
+  @media (min-width: 1470px) {
     font-size: calc(13px * var(--percentage-fourk));
   }
 
@@ -367,7 +367,7 @@ h4 {
   width: 150px;
   height: 52px;
 
-  @media (min-width: 1440px) {
+  @media (min-width: 1470px) {
     width: calc(150px * var(--percentage-fourk));
     height: calc(52px * var(--percentage-fourk));
   }
@@ -408,7 +408,7 @@ h4 {
   width: 60px;
   height: 19px;
 
-  @media (min-width: 1440px) {
+  @media (min-width: 1470px) {
     width: calc(60px * var(--percentage-fourk));
     height: calc(19px * var(--percentage-fourk));
   }

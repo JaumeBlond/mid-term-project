@@ -5,7 +5,7 @@
   width: 340px;
   height: 444px;
 
-  @media (min-width: 1440px) {
+  @media (min-width: 1470px) {
     width: calc(340px * var(--percentage-fourk));
     height: calc(444px * var(--percentage-fourk));
   }
@@ -40,7 +40,7 @@
   width: 340px;
   height: 380px;
 
-  @media (min-width: 1440px) {
+  @media (min-width: 1470px) {
     width: calc(340px * var(--percentage-fourk));
     height: calc(380px * var(--percentage-fourk));
   }
@@ -76,7 +76,7 @@
   object-fit: cover;
   height: 240px;
 
-  @media (min-width: 1440px) {
+  @media (min-width: 1470px) {
     height: calc(240px * var(--percentage-fourk));
   }
 
@@ -111,7 +111,7 @@
   margin-top: 30px;
   margin-left: 30px;
 
-  @media (min-width: 1440px) {
+  @media (min-width: 1470px) {
     height: calc(144px * var(--percentage-fourk));
     margin-top: calc(30px * var(--percentage-fourk));
     margin-left: calc(30px * var(--percentage-fourk));
@@ -152,7 +152,7 @@
   margin-bottom: auto;
   margin-top: 10px;
 
-  @media (min-width: 1440px) {
+  @media (min-width: 1470px) {
     margin-top: calc(10px * var(--percentage-fourk));
   }
 
@@ -200,7 +200,7 @@
 
   padding-left: 30px;
 
-  @media (min-width: 1440px) {
+  @media (min-width: 1470px) {
     padding-left: calc(30px * var(--percentage-fourk));
   }
 
@@ -234,7 +234,7 @@
   width: 80px;
   height: 80px;
 
-  @media (min-width: 1440px) {
+  @media (min-width: 1470px) {
     width: calc(80px * var(--percentage-fourk));
     height: calc(80px * var(--percentage-fourk));
   }
@@ -270,7 +270,7 @@
   width: 40px;
   height: 40px;
 
-  @media (min-width: 1440px) {
+  @media (min-width: 1470px) {
     padding: calc(20px * var(--percentage-fourk));
     width: calc(40px * var(--percentage-fourk));
     height: calc(40px * var(--percentage-fourk));
@@ -314,7 +314,7 @@
   width: 340px;
   height: 444px;
 
-  @media (min-width: 1440px) {
+  @media (min-width: 1470px) {
     width: calc(340px * var(--percentage-fourk));
     height: calc(444px * var(--percentage-fourk));
   }
@@ -349,7 +349,7 @@
   width: 340px;
   height: 380px;
 
-  @media (min-width: 1440px) {
+  @media (min-width: 1470px) {
     width: calc(340px * var(--percentage-fourk));
     height: calc(380px * var(--percentage-fourk));
   }
@@ -386,7 +386,7 @@
 
   height: 240px;
 
-  @media (min-width: 1440px) {
+  @media (min-width: 1470px) {
     height: calc(240px * var(--percentage-fourk));
   }
 
@@ -434,7 +434,7 @@
 
   padding-left: 30px;
 
-  @media (min-width: 1440px) {
+  @media (min-width: 1470px) {
     padding-left: calc(30px * var(--percentage-fourk));
   }
 
@@ -462,7 +462,7 @@
 .imgBck img {
   padding: 20px;
 
-  @media (min-width: 1440px) {
+  @media (min-width: 1470px) {
     padding: calc(20px * var(--percentage-fourk));
   }
 
